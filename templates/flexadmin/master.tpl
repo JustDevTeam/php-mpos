@@ -12,13 +12,13 @@
 
     <!-- PACE LOAD BAR PLUGIN - This creates the subtle load bar effect at the top of the page. -->
     <link href="{$PATH}/css/plugins/pace/pace.css" rel="stylesheet">
-    <script src="js/plugins/pace/pace.js"></script>
+    <script src="{$PATH}/js/plugins/pace/pace.js"></script>
 
     <!-- GLOBAL STYLES - Include these on every page. -->
     <link href="{$PATH}/css/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel="stylesheet" type="text/css">
-    <link href="icons/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{$PATH}/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- PAGE LEVEL PLUGIN STYLES -->
     <link href="{$PATH}/css/plugins/messenger/messenger.css" rel="stylesheet">
@@ -36,8 +36,8 @@
     <link href="{$PATH}/css/demo.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="{$PATH}/js/html5shiv.js"></script>
+      <script src="{$PATH}/js/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -82,45 +82,45 @@
     {include file="global/footer.tpl"}
        <!-- GLOBAL SCRIPTS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js/plugins/bootstrap/bootstrap.min.js"></script>
-    <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="js/plugins/popupoverlay/jquery.popupoverlay.js"></script>
-    <script src="js/plugins/popupoverlay/defaults.js"></script>
+    <script src="{$PATH}/js/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="{$PATH}/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="{$PATH}/js/plugins/popupoverlay/jquery.popupoverlay.js"></script>
+    <script src="{$PATH}/js/plugins/popupoverlay/defaults.js"></script>
     <!-- Logout Notification jQuery -->
-    <script src="js/plugins/popupoverlay/logout.js"></script>
+    <script src="{$PATH}/js/plugins/popupoverlay/logout.js"></script>
     <!-- HISRC Retina Images -->
-    <script src="js/plugins/hisrc/hisrc.js"></script>
+    <script src="{$PATH}/js/plugins/hisrc/hisrc.js"></script>
 
     <!-- PAGE LEVEL PLUGIN SCRIPTS -->
     <!-- HubSpot Messenger -->
-    <script src="js/plugins/messenger/messenger.min.js"></script>
-    <script src="js/plugins/messenger/messenger-theme-flat.js"></script>
+    <script src="{$PATH}/js/plugins/messenger/messenger.min.js"></script>
+    <script src="{$PATH}/js/plugins/messenger/messenger-theme-flat.js"></script>
     <!-- Date Range Picker -->
-    <script src="js/plugins/daterangepicker/moment.js"></script>
-    <script src="js/plugins/daterangepicker/daterangepicker.js"></script>
+    <script src="{$PATH}/js/plugins/daterangepicker/moment.js"></script>
+    <script src="{$PATH}/js/plugins/daterangepicker/daterangepicker.js"></script>
     <!-- Morris Charts -->
-    <script src="js/plugins/morris/raphael-2.1.0.min.js"></script>
-    <script src="js/plugins/morris/morris.js"></script>
+    <script src="{$PATH}/js/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="{$PATH}/js/plugins/morris/morris.js"></script>
     <!-- Flot Charts -->
-    <script src="js/plugins/flot/jquery.flot.js"></script>
-    <script src="js/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="{$PATH}/js/plugins/flot/jquery.flot.js"></script>
+    <script src="{$PATH}/js/plugins/flot/jquery.flot.resize.js"></script>
     <!-- Sparkline Charts -->
-    <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="{$PATH}/js/plugins/sparkline/jquery.sparkline.min.js"></script>
     <!-- Moment.js -->
-    <script src="js/plugins/moment/moment.min.js"></script>
+    <script src="{$PATH}/js/plugins/moment/moment.min.js"></script>
     <!-- jQuery Vector Map -->
-    <script src="js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="js/plugins/jvectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="js/demo/map-demo-data.js"></script>
+    <script src="{$PATH}/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="{$PATH}/js/plugins/jvectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="{$PATH}/js/demo/map-demo-data.js"></script>
     <!-- Easy Pie Chart -->
-    <script src="js/plugins/easypiechart/jquery.easypiechart.min.js"></script>
+    <script src="{$PATH}/js/plugins/easypiechart/jquery.easypiechart.min.js"></script>
     <!-- DataTables -->
-    <script src="js/plugins/datatables/jquery.dataTables.js"></script>
-    <script src="js/plugins/datatables/datatables-bs3.js"></script>
+    <script src="{$PATH}/js/plugins/datatables/jquery.dataTables.js"></script>
+    <script src="{$PATH}/js/plugins/datatables/datatables-bs3.js"></script>
 
     <!-- THEME SCRIPTS -->
-    <script src="js/flex.js"></script>
-    <script src="js/demo/dashboard-demo.js"></script>
+    <script src="{$PATH}/js/flex.js"></script>
+    <script src="{$PATH}/js/demo/dashboard-demo.js"></script>
 
   </body>
 </html>
