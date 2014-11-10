@@ -1,0 +1,156 @@
+<table>
+  <tr>
+    <th>API Action<br></th>
+    <th>Arguments</th>
+    <th>Description</th>
+    <th>Token Required<br></th>
+    <th>Admin Required<br></th>
+  </tr>
+  <tr>
+    <td>getblockcount<br></td>
+    <td>None</td>
+    <td>Get the current blockchain height<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getblocksfound</td>
+    <td>None</td>
+    <td>Get the last N Blocks found<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getblockstats</td>
+    <td>None</td>
+    <td>Get pool block stats<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getcurrentworkers</td>
+    <td>None</td>
+    <td>List current active workers<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getdashboarddata</td>
+    <td>id</td>
+    <td>Fetch all dashboard information<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getdifficulty</td>
+    <td>None</td>
+    <td>Get current coin difficultie<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getestimatedtime</td>
+    <td>None</td>
+    <td>Get estimated time in seconds to find next block<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>gethourlyhashrates</td>
+    <td>None</td>
+    <td>Not Working at Present<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getpoolinfo</td>
+    <td>None</td>
+    <td>Show pool settings information<br></td>
+    <td>YN</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getpoolsharerate</td>
+    <td>None</td>
+    <td>Show current pool shares per second<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getpoolstatus</td>
+    <td>None</td>
+    <td>Fetch overall pool status (User token REQ)<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>gettimesincelastblock</td>
+    <td>None</td>
+    <td>Get time since last block<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>gettopcontributors</td>
+    <td>None</td>
+    <td>Show top contributors<br></td>
+    <td>Y</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td>getuserbalance</td>
+    <td>id</td>
+    <td>Show User balance<br></td>
+    <td>Y</td>
+    <td>Y</td>
+  </tr>
+  <tr>
+    <td>getuserhashrate</td>
+    <td>id</td>
+    <td>Show users rate<br></td>
+    <td>Y</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>getusersharerate</td>
+    <td>id</td>
+    <td>Show user share rate<br></td>
+    <td>Y</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>getuserstatus</td>
+    <td>id</td>
+    <td>Show the server status<br></td>
+    <td>Y</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>getusertransactions</td>
+    <td>id</td>
+    <td>Show User Transactions<br></td>
+    <td>Y</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>getuserworkers</td>
+    <td>id</td>
+    <td>Show a given users online workers<br></td>
+    <td>Y</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>public</td>
+    <td>id</td>
+    <td>Display public API Information<br></td>
+    <td>N</td>
+    <td>N</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
