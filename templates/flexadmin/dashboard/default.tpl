@@ -1,14 +1,18 @@
 {if $smarty.session.AUTHENTICATED|default}
 <script src="{$PATH}/js/plugins/date.format.js"></script>
 <script src="{$PATH}/js/plugins/soundjs-0.5.2.min.js"></script>
+<div class="portlet portlet-green">
+                            <div class="portlet-heading">
+                                <div class="portlet-title">
+                                    <h4>Overview</h4>
+                                </div>
+                                <div class="portlet-widgets">
 
-<div class="row">
-  <div class="col-lg-12">
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <h4 class="panel-title"><i class="fa fa-align-left fa-fw"></i> Overview</h4>
-      </div>
-      <div class="panel-body text-center">
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="greenPortlet2" class="panel-collapse collapse in">
+                                <div class="portlet-body">
         <div class="row">
           <div class="col-lg-12">
           {* Load our payout system so we can load some payout specific templates *}
@@ -22,14 +26,11 @@
           {include file="dashboard/blocks/default.tpl"}
           </div>
         </div>
-      </div>
-      <div class="panel-footer">
-        <h6>Refresh interval: {$GLOBAL.config.statistics_ajax_refresh_interval|default:"10"} seconds, worker and account {$GLOBAL.config.statistics_ajax_long_refresh_interval|default:"10"} seconds. Hashrate based on shares submitted in the past {$INTERVAL|default:"5"} minutes.</h6>
-      </div>
-    </div>
-  </div>
-</div>
-  {* Include our JS libraries, we allow a live updating JS and a static one *}
+                                </div>
+                            </div>
+                        </div>
+
+
   {if !$DISABLED_DASHBOARD and !$DISABLED_DASHBOARD_API}
   {include file="dashboard/js/api.tpl"}
   {else}

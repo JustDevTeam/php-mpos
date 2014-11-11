@@ -1,10 +1,20 @@
-  <div class="col-lg-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <i class="fa fa-th fa-fw"></i> Last Found Blocks
-      </div>
-      <div class="panel-body no-padding table-responsive">
-        <table class="table table-striped table-bordered table-hover">
+<div class="portlet portlet-orange">
+                            <div class="portlet-heading">
+                                <div class="portlet-title">
+                                    <h4>Last Blocks Found</h4>
+                                </div>
+                                <div class="portlet-widgets">
+                                    <div class="btn-group btn-group-xs" data-toggle="buttons">
+                                     </div>
+                                    <span class="divider"></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div style="height: auto;" id="bluePortlet" class="panel-collapse in">
+                                <div class="portlet-body">
+
+                                    <p>        
+        <table class="table-responsive">
           <thead>
             <tr>
               <th>Block</th>
@@ -37,3 +47,9 @@
 {/if}
     </div>
   </div>
+</p>
+                                </div>
+                            </div>
+                        </div>
+
+ 

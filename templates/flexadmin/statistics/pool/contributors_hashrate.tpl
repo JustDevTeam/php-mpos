@@ -1,10 +1,9 @@
-  <div class="col-lg-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <i class="fa fa-tachometer fa-fw"></i> Contributor Hashrates
-      </div>
-      <div class="panel-body no-padding table-responsive">
-        <table class="table table-striped table-bordered table-hover">
+                    <div class="col-lg-6">
+                        <div class="tile dark-blue">
+                            <h4>Contributor Hashrate</h4>
+                            <br>
+                            <p>        
+<table class="table-responsive">
           <thead>
             <tr>
               <th>Rank</th>
@@ -49,13 +48,6 @@
           </tbody>
         </table>
       </div>
-      <div class="panel-footer">
-          <h6>
-          <i class="fa fa-ban fa-fw"></i>no Donation
-          <i class="fa fa-star-o fa-fw"></i> 0&#37;&#45;2&#37; Donation 
-          <i class="fa fa-trophy fa-fw"></i> 2&#37; or more Donation
-          </h6>
-      </div>
-    </div>
-  </div>
+</p>
+</div>
 

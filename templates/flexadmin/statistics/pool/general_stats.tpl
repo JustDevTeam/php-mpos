@@ -1,10 +1,19 @@
-  <div class="col-lg-6">
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <i class="fa fa-bar-chart-o fa-fw"></i> General Statistics
-      </div>
-      <div class="panel-body no-padding table-responsive">
-        <table class="table table-striped table-bordered table-hover">
+<div class="portlet portlet-red">
+                            <div class="portlet-heading">
+                                <div class="portlet-title">
+                                    <h4>General Pool Statistics</h4>
+                                </div>
+                                <div class="portlet-widgets">
+                                    <div class="btn-group btn-group-xs" data-toggle="buttons">
+                                     </div>
+                                    <span class="divider"></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div style="height: auto;" id="bluePortlet" class="panel-collapse in">
+                                <div class="portlet-body">
+
+                                    <p>        <table class="table-responsive">
           <tbody>
             <tr>
               <th width="50%">Pool Hash Rate</th>
@@ -67,9 +76,9 @@
             </tr>
           </tbody>
         </table>
-      </div>
-      <div class="panel-footer">
-        <h6>{if !$GLOBAL.website.api.disabled}These stats are also available in JSON format <a href="{$smarty.server.SCRIPT_NAME}?page=api&action=getpoolstatus&api_key={$GLOBAL.userdata.api_key|default:""}">HERE</a>{/if}</h6>
-      </div>
-    </div>
-  </div>
+</p>
+                                </div>
+                            </div>
+                        </div>
+
+ 

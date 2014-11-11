@@ -1,5 +1,5 @@
-          <div class="col-lg-2 col-sm-6">
-            <div class="circle-tile fade">
+`          <div class="col-lg-2 col-sm-6">
+            <div class="circle-tile">
               <div class="circle-tile-heading lightblue">
                 <i class="fa fa-male fa-fw fa-2x"></i>
               </div>

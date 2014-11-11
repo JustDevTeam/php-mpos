@@ -13,18 +13,20 @@
     <!-- PACE LOAD BAR PLUGIN - This creates the subtle load bar effect at the top of the page. -->
     <link href="{$PATH}/css/plugins/pace/pace.css" rel="stylesheet">
     <script src="{$PATH}/js/plugins/pace/pace.js"></script>
+    <script src="{$PATH}/js/mpos.js"></script>
+    <link href="{$PATH}/css/mpos.css" rel="stylesheet">
 
     <!-- GLOBAL STYLES - Include these on every page. -->
     <link href="{$PATH}/css/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel="stylesheet" type="text/css">
-    <link href="{$PATH}/icons/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- PAGE LEVEL PLUGIN STYLES -->
     <link href="{$PATH}/css/plugins/messenger/messenger.css" rel="stylesheet">
     <link href="{$PATH}/css/plugins/messenger/messenger-theme-flat.css" rel="stylesheet">
     <link href="{$PATH}/css/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet">
-    <link href="{$PATH}/css/plugins/morris/morris.css" rel="stylesheet">
+    <!-- <link href="{$PATH}/css/plugins/morris/morris.css" rel="stylesheet"> -->
     <link href="{$PATH}/css/plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet">
     <link href="{$PATH}/css/plugins/datatables/datatables.css" rel="stylesheet">
 
@@ -32,14 +34,30 @@
     <link href="{$PATH}/css/style.css" rel="stylesheet">
     <link href="{$PATH}/css/plugins.css" rel="stylesheet">
 
-    <!-- THEME DEMO STYLES - Use these styles for reference if needed. Otherwise they can be deleted. -->
-    <link href="{$PATH}/css/demo.css" rel="stylesheet">
-
     <!--[if lt IE 9]>
       <script src="{$PATH}/js/html5shiv.js"></script>
       <script src="{$PATH}/js/respond.min.js"></script>
     <![endif]-->
 
+  {if $GLOBAL.statistics.analytics.enabled}
+  {$GLOBAL.statistics.analytics.code nofilter}
+  {/if}
+
+<!-- Testing -->
+<script src="{$PATH}/js/jquery-2.1.1.min.js"></script>
+<script src="{$PATH}/js/jquery.cookie.js"></script>
+<script src="{$PATH}/js/jquery.md5.js"></script>
+<script src="{$PATH}/js/bootstrap.min.js"></script>
+<script src="{$PATH}/js/bootstrap-switch.min.js"></script>
+<script src="{$PATH}/js/plugins/dataTables/jquery.dataTables.js"></script>
+<script src="{$PATH}/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+<script src="{$PATH}/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="{$PATH}/js/plugins/morris/raphael-2.1.0.min.js"></script>
+<script src="{$PATH}/js/plugins/morris/morris.js"></script>
+<script src="{$PATH}/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="{$PATH}/js/mpos.js"></script>
+
+<!-- end test -->
 </head>
 
 <body>
@@ -108,10 +126,6 @@
     <script src="{$PATH}/js/plugins/sparkline/jquery.sparkline.min.js"></script>
     <!-- Moment.js -->
     <script src="{$PATH}/js/plugins/moment/moment.min.js"></script>
-    <!-- jQuery Vector Map -->
-    <script src="{$PATH}/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="{$PATH}/js/plugins/jvectormap/maps/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="{$PATH}/js/demo/map-demo-data.js"></script>
     <!-- Easy Pie Chart -->
     <script src="{$PATH}/js/plugins/easypiechart/jquery.easypiechart.min.js"></script>
     <!-- DataTables -->
